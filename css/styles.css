@@ -256,6 +256,9 @@ h3 {
 .description:hover {
     color: #0065FC;
 }
+.hebergements_marseille article:hover {
+    background-color: #f2f2f2;
+}
 
 .bleu {
     color:#0065FC
@@ -317,6 +320,7 @@ h3 {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    object-position: center;
 }
 .most_popular article {
     padding: 6px;
@@ -417,21 +421,20 @@ h3 {
 .parc_longchamp {
     height: 74%;
 }
-.img_port, .fort_pomegues, .iles_frioul, .parc_calanques, .la_garde, .parc_longchamp img {
+.img_port img, .fort_pomegues img, .iles_frioul img, .parc_calanques img, .la_garde img, .parc_longchamp img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 .img_port img {
-    height: 110%;
+    height: 100%;
 } 
 
 .iles_frioul img {
-    height: 250%;
-    object-position: 0 -50px;
+    height: 100%;
 }
 .fort_pomegues img {
-    height: 280%;
+    height: 100%;
     object-position: 0 -130px;
 }
 
@@ -439,7 +442,7 @@ h3 {
     height: 115%;
 }
 .la_garde img{
-    height: 200%;
+    height: 100%;
     object-position: 0 0;
 }
 
@@ -481,6 +484,27 @@ h3 {
         margin-right: auto;
     }
 }  
+/* Footer */
+footer {
+    background-color: #f2f2f2;
+    width: 100%;
+    display: flex;
+    padding: 50px;
+}
+
+footer div p {
+    font-weight: bold;
+}
+
+.contain_footer1, .contain_footer2, .contain_footer3 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+footer ul {
+    padding: 0;
+}
+
 
 /* MOBILE */
 @media (max-width: 767px) {
