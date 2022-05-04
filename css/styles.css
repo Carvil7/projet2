@@ -192,6 +192,7 @@ button, .Submit_sup {
 .hebergements_marseille {
     width: 65%;
     margin: 0;
+    height: 645px;
     padding: 45px;
     padding-top: 1px;
     background-color: #f2f2f2;
@@ -280,7 +281,7 @@ h3 {
     border-radius: 20px;
     margin-left: 50px;
     padding: 30px;
-    height: 665px;
+    height: 645px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -451,6 +452,35 @@ h3 {
     object-position: 0 -10px;
 }
 
+/* Footer */
+footer {
+    background-color: #f2f2f2;
+    width: 100%;
+    display: flex;
+    padding: 10px;
+}
+
+footer div p {
+    font-weight: bold;
+    font-size: 110%;
+    margin-bottom: -10px;
+}
+
+.contain_footer1, .contain_footer2, .contain_footer3 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 20px;
+}
+footer ul {
+    padding: 0;
+    flex-direction: column;
+    width: 100%;
+}
+footer li {
+    padding: 0;
+    margin: 10px 0;
+}
 
 /* TABLET */
 @media (max-width: 991px) {
@@ -484,27 +514,6 @@ h3 {
         margin-right: auto;
     }
 }  
-/* Footer */
-footer {
-    background-color: #f2f2f2;
-    width: 100%;
-    display: flex;
-    padding: 50px;
-}
-
-footer div p {
-    font-weight: bold;
-}
-
-.contain_footer1, .contain_footer2, .contain_footer3 {
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-}
-footer ul {
-    padding: 0;
-}
-
 
 /* MOBILE */
 @media (max-width: 767px) {
@@ -563,5 +572,14 @@ footer ul {
     }
     .Card_popular {
         width: 100%;
+    }
+    footer {
+        flex-direction: column;
+        padding: 10px;
+        width: 100%;
+    }
+    .contain_footer1, .contain_footer2, .contain_footer3 {
+        width: 100%;
+        margin-top: 10px;
     }
 }    
