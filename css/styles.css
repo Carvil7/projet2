@@ -93,11 +93,12 @@ button, .Submit_sup {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px; 
 }
-.Search {
+input {
     width: 230px;
     padding-left: 10px;
-    border: solid #f2f2f2;
-    border-right: none;   
+    border: 1px solid #f2f2f2;
+    border-right: none;
+    outline: none;   
 }
 
 ::placeholder {
@@ -127,7 +128,7 @@ button, .Submit_sup {
 .contain_icon {
     margin-left: 10px;
     margin-right: 10px;
-    border: 2px solid #f2f2f2;
+    border: 2px solid #dddada;
     border-radius: 35px;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -319,6 +320,7 @@ h3 {
     align-items: center;
     justify-content: space-between;
     width: 80%;
+    margin-bottom: -10px;
 }
 .pop {
     font-size: 140%;
@@ -331,7 +333,7 @@ h3 {
 }
 
 .Card_popular {
-    height: 80%;
+    height: 82%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -381,7 +383,7 @@ h3 {
 
 .activity {
     width: 100%;
-    padding: 20px;
+    padding: 40px;
     display: flex;
     flex-direction: column;
 }
@@ -394,7 +396,6 @@ h3 {
 .activity h2 {
     font-size: 25px;
     margin-bottom: 0;
-    margin-left: 20px;
 }
 .activity h3 {
     font-size: 100%;
@@ -514,6 +515,7 @@ footer ul {
     padding: 0;
     flex-direction: column;
     width: 100%;
+    list-style-type: none;
 }
 footer li {
     padding: 0;
@@ -529,6 +531,7 @@ footer li {
         margin: 0;
         padding-left: 0;
         padding-right: 0;
+        padding-top: 20px;
     }
 
     nav {
@@ -560,8 +563,21 @@ footer li {
         margin-bottom: -5px;
         margin-top: 10px;
     }
+    .Title {
+        padding-left: 20px;
+    }
+    .loc {
+        margin-left: 20px;
+    }
+    .filtres {
+        padding: 0;
+    }
+    .info {
+        padding-left: 20px;
+    }
 
     .Cards {
+        padding: 0px 20px 0px 20px;
         margin: 0;
         flex-direction: column-reverse;
     }
@@ -569,7 +585,7 @@ footer li {
     .most_popular {
         height: auto;
         width: 100%;
-        padding: 60px;
+        padding: 20px 60px 50px 60px;
         margin-bottom: 20px;
         margin-left: auto;
         margin-right: auto;
@@ -582,7 +598,7 @@ footer li {
         align-items: center;
     } 
     .Card_popular article {
-        margin-top: 20px;
+        margin-top: 10px;
     }
     .Card_popular a {
         height: 140px;
@@ -592,23 +608,75 @@ footer li {
         height: 100%;
         width: 35%;
     }
+    .pop {
+        font-size: 180%;
+    }
+    .line {
+        font-size: 200%;
+    }
+    .populaires {
+        width: 82%;
+    }
+    #Hébergements {
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
 
     .hebergements_marseille {
+        height: 580px;
         width: 100%;
-        margin-bottom: 20px;
         margin-left: auto;
         margin-right: auto;
+        background-color: white;
+        padding: 0px;
+    }
+    .activity {
+        padding: 20px;
+    }
+    .activity a {
+        width: 30%;
+    }
+    .activity h2 {
+        margin-bottom: 10px;
+        font-size: 150%;
+    }
+    .activity h3 {
+        font-size: 100%;
+        padding: 15px;
+    }
+    .card_activity {
+        margin: 10px 0 10px 0;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+    }     
+    .vieux_port, .Pomegues, .frioul_, .Calanques, .Garde, .longchamp_ {
+        height: 45%;
+    }
+    .img_port, .fort_pomegues, .iles_frioul, .parc_calanques, .la_garde, .parc_longchamp {
+        height: 85%;
+    }
 
+    .iles_frioul img {
+        height: 115%;
+        object-position: 0 0px;
     }
-    .fort_pomegues img {
-        object-position: 0 -60px;
-    }
+    .contain_footer1, .contain_footer2, .contain_footer3 {
+        margin: 10px;
+    }    
 }
   
 
 /* MOBILE */
 @media (max-width: 767px) {
     
+    .recherche_, .filter {
+        margin-right: 20px;
+    }
+    .recherche_ {
+        margin-top: 20px;
+    }
     .glass {
         display:contents
     }
@@ -620,6 +688,9 @@ footer li {
         right: 10px;
         width: 50px ;
         border-radius: 15px;
+    }
+    input {
+        width: 60%;
     }
     .filt {
         width: 100%;
@@ -658,13 +729,20 @@ footer li {
         margin-bottom: 20px;
         padding: 20px;
     }
+    .pop {
+        font-size: 140%;
+    }
+    .line {
+        font-size: 130%;
+    }
     .hebergements_marseille {
         background-color: #ffffff;
         height:auto;
         flex-direction: column;
         padding: 0;
         width: 320px;
-        margin-top: 25px;
+        margin-bottom: 20px;
+        margin-top: 0px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -682,6 +760,7 @@ footer li {
     }
     #Hébergements {
         font-size: 140%;
+        margin-bottom: 0;
     }
 
     .contain_heb {
@@ -700,12 +779,30 @@ footer li {
         display: flex;
     }
     .activity {
-        align-items: center;
+        width: 320px;
+        padding: 0;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
     }
     .activity a {
         width: 320px;
         height: 200px;
         margin: 10px 0;
+    }
+    .activity h2 {
+        font-size: 140%;
+        margin: 0
+    }
+    .iles_frioul {
+        height: 76%;
+    }
+    .la_garde {
+        height: 77%;
+    }
+    .parc_longchamp {
+        height: 76%;
     }
 
     footer {
