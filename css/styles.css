@@ -1,5 +1,5 @@
 @font-face {
-    Font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway';
     src: url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 }    
 
@@ -14,6 +14,9 @@ a {
     text-decoration: none;
     color : inherit;
 }
+body {
+    max-width: 1440px;
+}
 
 /* HEADER */
 
@@ -21,9 +24,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 20px;
-    padding-left: 30px;
-    padding-right: 20px;
+    margin: 0 25px;
+    padding-left: 20px;
+    padding-right: 10px;
 }
 
 .new {
@@ -37,11 +40,9 @@ header {
 
 .new a:hover {
     border-top: 3px solid #0065FC;
+    color: #0065FC;
 }
 
-.home {
-    color: #0065FC
-}
 
 #Logo {
     width: 100px;
@@ -54,7 +55,6 @@ header {
 }
 .vac {
     margin-bottom: -5px;
-    margin: 0;
 }    
 
 .sub_title {
@@ -496,7 +496,7 @@ footer {
     background-color: #f2f2f2;
     width: 100%;
     display: flex;
-    padding: 10px;
+    padding: 20px;
 }
 
 footer div p {
@@ -539,6 +539,8 @@ footer li {
     }
 
     #Logo {
+        width: 150px;
+        height: 75%;
         padding-bottom: 20px;
         margin: auto;
     }
@@ -559,6 +561,7 @@ footer li {
         border-top: 3px solid #fff;
         border-bottom: 3px solid #0065FC;
     }
+
     .vac {
         margin-bottom: -5px;
         margin-top: 10px;
@@ -610,6 +613,7 @@ footer li {
     }
     .pop {
         font-size: 180%;
+        margin: 10px;
     }
     .line {
         font-size: 200%;
@@ -646,7 +650,7 @@ footer li {
     }
     .card_activity {
         margin: 10px 0 10px 0;
-        flex-direction: row;
+        flex-direction: column-reverse;
         flex-wrap: wrap;
         align-items: flex-start;
         justify-content: space-between;
@@ -670,7 +674,10 @@ footer li {
 
 /* MOBILE */
 @media (max-width: 767px) {
-    
+    #Logo {
+        width: 100px;
+        height: 50%
+    }
     .recherche_, .filter {
         margin-right: 20px;
     }
@@ -784,7 +791,7 @@ footer li {
         flex-direction: column;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
     }
     .activity a {
         width: 320px;
@@ -807,8 +814,12 @@ footer li {
 
     footer {
         flex-direction: column;
-        padding: 10px;
+        padding: 20px;
         width: 100%;
+        margin-bottom: 10px;
+    }
+    footer ul {
+        margin-bottom: -10px;
     }
     .contain_footer1, .contain_footer2, .contain_footer3 {
         width: 100%;
