@@ -1,0 +1,149 @@
+/* TABLET - Booki */
+
+@media (max-width: 991px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 20px;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    #Logo {
+        width: 150px;
+        height: 75%;
+        padding-bottom: 20px;
+        margin: auto;
+    }
+    .contain_nav {
+        margin: auto;
+        display:flex ;
+        flex-basis: 100%;
+        text-align: center; 
+    }
+
+    .contain_nav a {
+        width: 50%;
+        padding: 10px;
+        border-bottom: 3px solid #f2f2f2; 
+    }
+
+    .contain_nav a:hover {
+        border-top: 3px solid #fff;
+        border-bottom: 3px solid #0065FC;
+    }
+
+    .search h1 {
+        margin-bottom: -5px;
+        margin-top: 10px;
+    }
+    .Title {
+        padding-left: 20px;
+    }
+    .loc {
+        margin-left: 20px;
+    }
+    .contain_filter {
+        padding: 0;
+    }
+    .info {
+        padding-left: 20px;
+    }
+
+    .Cards {
+        padding: 0px 20px 0px 20px;
+        margin: 0;
+        flex-direction: column-reverse;
+    }
+
+    .most_popular {
+        height: auto;
+        width: 100%;
+        padding: 20px 60px 50px 60px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }  
+    .Card_popular {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    } 
+    .Card_popular article {
+        margin-top: 10px;
+    }
+    .Card_popular a {
+        height: 140px;
+        margin-top: 10px;
+    }
+    .card_img {
+        height: 100%;
+        width: 35%;
+    }
+    .popular h2 {
+        font-size: 180%;
+        margin: 10px;
+    }
+    .line {
+        font-size: 200%;
+    }
+    .popular {
+        width: 82%;
+    }
+    #Hébergements {
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    .heb_marseille {
+        height: 580px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        padding: 0px;
+    }
+    .activity {
+        padding: 20px;
+    }
+    .activity a {
+        width: 30%;
+    }
+    .activity h2 {
+        margin-bottom: 10px;
+        font-size: 150%;
+    }
+    .activity h3 {
+        font-size: 100%;
+        padding: 15px;
+    }
+    .card_activity {
+        margin: 10px 0 10px 0;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+    }     
+    .vieux_port, .Pomegues, .frioul_, .Calanques, .Garde, .longchamp_ {
+        height: 45%;
+    }
+    .img_port, .fort_pomegues, .iles_frioul, .parc_calanques, .la_garde, .parc_longchamp {
+        height: 85%;
+    }
+
+    .iles_frioul img {
+        height: 115%;
+        object-position: 0 0px;
+    }
+    .contain_footer {
+        margin: 10px;
+    }    
+}   

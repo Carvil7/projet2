@@ -1,0 +1,181 @@
+/* BOOKI - Mobile */
+
+@media (max-width: 767px) {
+    #Logo {
+        width: 100px;
+        height: 50%
+    }
+
+    .search, .filter {
+        margin-right: 20px;
+    }
+
+    .search {
+        margin-top: 20px;
+    }
+
+    .glass {
+        display:contents
+    }
+
+    .Submit_sup {
+        display: none;
+    }
+
+    button {
+        position: relative;
+        right: 10px;
+        width: 50px ;
+        border-radius: 15px;
+    }
+
+    input {
+        width: 60%;
+    }
+
+    .contain_filter h1 {
+        width: 100%;
+    }
+
+    .popular {
+        width: 320px;
+    }
+
+    .Cards {
+        flex-direction: column-reverse; 
+        padding: 0; 
+    }
+
+    .Card_popular {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .Card_popular a {
+        height: 140px;
+        width: 320px;
+        margin-top: 10px;
+    }
+
+    .card_img {
+        height: 100%;
+        width: 35%;
+    }
+
+    .Card_popular article {
+        margin-top: 0;
+    }
+
+    .most_popular {
+        background-color: #f2f2f2;
+        width: 100%;
+        border-radius: 0;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+    .popular h2 {
+        font-size: 140%;
+    }
+
+    .line {
+        font-size: 130%;
+    }
+
+    .heb_marseille {
+        background-color: #ffffff;
+        height:auto;
+        flex-direction: column;
+        padding: 0;
+        width: 320px;
+        margin-bottom: 20px;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .heb_marseille article {
+        height: 100%;
+        width: 100%;
+    }
+
+    .heb_marseille .img_card {
+        height: 60%;
+    }
+
+    .heb_marseille a {
+        height: 200px;
+        width: 320px;
+        margin: 2% 0;
+    }
+
+    #Hébergements {
+        font-size: 140%;
+        margin-bottom: 0;
+    }
+
+    .contain_heb {
+        flex-direction: column;
+        display: flex;
+    }
+   
+    .card_activity {
+        flex-direction: column;
+        height: auto;
+        width: 330px;
+    }
+
+    .card_activity article {
+        flex-direction: column;
+        display: flex;
+    }
+
+    .activity {
+        width: 320px;
+        padding: 0;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+
+    .activity a {
+        width: 320px;
+        height: 200px;
+        margin: 10px 0;
+    }
+
+    .activity h2 {
+        font-size: 140%;
+        margin: 0
+    }
+
+    .iles_frioul {
+        height: 76%;
+    }
+
+    .la_garde {
+        height: 77%;
+    }
+
+    .parc_longchamp {
+        height: 76%;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 20px 20px 30px 20px;
+        width: 100%;
+    }
+
+    footer ul {
+        margin-bottom: -10px;
+    }
+    
+    .contain_footer {
+        width: 100%;
+        margin-top: 10px;
+    }
+}    
