@@ -29,16 +29,16 @@ header {
     padding-right: 10px;
 }
 
-.new {
+.contain_nav {
     display: flex;
 }
 
-.new a {
-    padding: 40px 30px;
+.contain_nav a {
+    padding: 50px 30px;
     border-top: 3px solid #fff;
 }
 
-.new a:hover {
+.contain_nav a:hover {
     border-top: 3px solid #0065FC;
     color: #0065FC;
 }
@@ -53,14 +53,16 @@ header {
     padding-left: 40px;
     font-size: 11px;
 }
-.vac {
-    margin-bottom: -5px;
-}    
 
-.sub_title {
+.Title p {
     font-size: 14px;
     margin-bottom: 20px
 }
+
+.search h1 {
+    margin-bottom: -5px;
+    margin: 0;
+}    
 
 
 /* SEARCH */
@@ -69,7 +71,7 @@ form {
     display: flex;
 }
 
-.recherche_ i, .filter i {
+.search i, .filter i {
     padding: 12px;
 }
 
@@ -111,14 +113,14 @@ input {
 
 /* FILTRES */
 
-.filtres {  
+.contain_filter {  
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     margin: 10px;
     padding-left: 20px;
 }
-.filt {
+.contain_filter h1 {
     padding-right: 20px;
     padding-left: 10px;
     font-size: 16px;
@@ -184,7 +186,7 @@ input {
     align-items: center;
     justify-content: center;
 }
-.logement {
+.info p {
     margin: 5px 0 0 10px;
 }
 /* CARDS-Hébergement */
@@ -196,7 +198,14 @@ input {
     flex-wrap: wrap;
 }
 
-.hebergements_marseille {
+.Cards h3 {
+    font-size: 92%;
+}
+.Cards h4 {
+    font-size: 120%;
+}
+
+.heb_marseille {
     width: 65%;
     margin: 0;
     height: 645px;
@@ -210,16 +219,11 @@ input {
     align-content: space-between;
 }
 
-.hebergements_marseille h2, .hebergements_marseille h3 {
+.heb_marseille h2, .heb_marseille h3 {
     width: 100%;
 }
 
-#Hébergements {
-    padding-bottom: 10px;
-    font-size: 150%;
-    margin: 0;
-}
-.hebergements_marseille article {
+.heb_marseille article {
     width: 100%;
     height: 100%;
     padding: 2%;
@@ -227,9 +231,31 @@ input {
     border-radius: 20px;
     box-shadow: 0 10px 10px 0 #dddada;
 }
-.hebergements_marseille a {
+.heb_marseille a {
     height: 47%;
     width: 31%;
+}
+
+.heb_marseille article:hover {
+    background-color: #f2f2f2;
+}
+
+.heb_marseille h2, h4 {
+    width: 100%;
+}
+#Hébergements {
+    padding-bottom: 10px;
+    font-size: 150%;
+    margin: 0;
+}
+
+.contain_heb {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
 }
 
 .img_card {
@@ -246,9 +272,21 @@ input {
     object-fit: cover;
 }
 
+.description {
+    height: 40%;
+    padding: 10px 0px 0px 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.description:hover {
+    color: #0065FC;
+}
+
 h3 {
     margin: 0;
 }
+
 .night {
     font-size: 13px;
     width: 90%;
@@ -261,29 +299,6 @@ h3 {
     width: 90%;
 }
 
-.contain_heb {
-    height: 80%;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: space-between;
-}
-
-.description {
-    height: 40%;
-    padding: 10px 0px 0px 10px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.description:hover {
-    color: #0065FC;
-}
-.hebergements_marseille article:hover {
-    background-color: #f2f2f2;
-}
-
 .bleu {
     color:#0065FC
 }
@@ -291,15 +306,7 @@ h3 {
 .gris {
     color: grey;
 }
-.Cards h4 {
-    font-size: 120%;
-}
-.hebergements_marseille h2, h4 {
-    width: 100%;
-}
-.Cards h3 {
-    font-size: 92%;
-}
+
 /* CARDS-Populaires */
 
 .most_popular {
@@ -315,14 +322,14 @@ h3 {
     align-items: center;
     justify-content: center;
 }
-.populaires {
+.popular {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 80%;
     margin-bottom: -10px;
 }
-.pop {
+.popular h2 {
     font-size: 140%;
     margin: 0;
 }
@@ -344,6 +351,19 @@ h3 {
     height: 28%;
     width: 82%;
 }
+
+.Card_popular article {
+    height: 100%;
+    padding: 4px;
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px 5px #dddada;
+}
+
+.Card_popular article:hover {
+    background-color: #f2f2f2;
+}
 .card_img {
     width: 38%;
     border-top-left-radius: 15px;
@@ -356,14 +376,7 @@ h3 {
     width: 100%;
     object-fit: cover;
 }
-.Card_popular article {
-    height: 100%;
-    padding: 4px;
-    display: flex;
-    background-color: #ffffff;
-    border-radius: 20px;
-    box-shadow: 0 10px 10px 5px #dddada;
-}
+
 .description_bis {
     width: 55%;
     padding: 10px;
@@ -376,9 +389,7 @@ h3 {
 .description_bis:hover {
     color: #0065FC;
 }
-.Card_popular article:hover {
-    background-color: #f2f2f2;
-}
+
 /* Activités-CARD */
 
 .activity {
@@ -505,12 +516,6 @@ footer div p {
     margin-bottom: -10px;
 }
 
-.contain_footer1, .contain_footer2, .contain_footer3 {
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    margin: 20px;
-}
 footer ul {
     padding: 0;
     flex-direction: column;
@@ -520,6 +525,13 @@ footer ul {
 footer li {
     padding: 0;
     margin: 10px 0;
+}
+
+.contain_footer {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 20px;
 }
 
 /* TABLET */
@@ -544,25 +556,25 @@ footer li {
         padding-bottom: 20px;
         margin: auto;
     }
-    .new {
+    .contain_nav {
         margin: auto;
         display:flex ;
         flex-basis: 100%;
         text-align: center; 
     }
 
-    .new a {
+    .contain_nav a {
         width: 50%;
         padding: 10px;
         border-bottom: 3px solid #f2f2f2; 
     }
 
-    .new a:hover {
+    .contain_nav a:hover {
         border-top: 3px solid #fff;
         border-bottom: 3px solid #0065FC;
     }
 
-    .vac {
+    .search h1 {
         margin-bottom: -5px;
         margin-top: 10px;
     }
@@ -572,7 +584,7 @@ footer li {
     .loc {
         margin-left: 20px;
     }
-    .filtres {
+    .contain_filter {
         padding: 0;
     }
     .info {
@@ -611,14 +623,14 @@ footer li {
         height: 100%;
         width: 35%;
     }
-    .pop {
+    .popular h2 {
         font-size: 180%;
         margin: 10px;
     }
     .line {
         font-size: 200%;
     }
-    .populaires {
+    .popular {
         width: 82%;
     }
     #Hébergements {
@@ -626,7 +638,7 @@ footer li {
         margin-top: 20px;
     }
 
-    .hebergements_marseille {
+    .heb_marseille {
         height: 580px;
         width: 100%;
         margin-left: auto;
@@ -666,22 +678,21 @@ footer li {
         height: 115%;
         object-position: 0 0px;
     }
-    .contain_footer1, .contain_footer2, .contain_footer3 {
+    .contain_footer {
         margin: 10px;
     }    
 }
   
-
 /* MOBILE */
 @media (max-width: 767px) {
     #Logo {
         width: 100px;
         height: 50%
     }
-    .recherche_, .filter {
+    .search, .filter {
         margin-right: 20px;
     }
-    .recherche_ {
+    .search {
         margin-top: 20px;
     }
     .glass {
@@ -699,10 +710,10 @@ footer li {
     input {
         width: 60%;
     }
-    .filt {
+    .contain_filter h1 {
         width: 100%;
     }
-    .populaires {
+    .popular {
         width: 320px;
     }
     .Cards {
@@ -736,13 +747,13 @@ footer li {
         margin-bottom: 20px;
         padding: 20px;
     }
-    .pop {
+    .popular h2 {
         font-size: 140%;
     }
     .line {
         font-size: 130%;
     }
-    .hebergements_marseille {
+    .heb_marseille {
         background-color: #ffffff;
         height:auto;
         flex-direction: column;
@@ -753,14 +764,14 @@ footer li {
         margin-left: auto;
         margin-right: auto;
     }
-    .hebergements_marseille article {
+    .heb_marseille article {
         height: 100%;
         width: 100%;
     }
-    .hebergements_marseille .img_card {
+    .heb_marseille .img_card {
         height: 60%;
     }
-    .hebergements_marseille a {
+    .heb_marseille a {
         height: 200px;
         width: 320px;
         margin: 2% 0;
@@ -814,14 +825,13 @@ footer li {
 
     footer {
         flex-direction: column;
-        padding: 20px;
+        padding: 20px 20px 30px 20px;
         width: 100%;
-        margin-bottom: 10px;
     }
     footer ul {
         margin-bottom: -10px;
     }
-    .contain_footer1, .contain_footer2, .contain_footer3 {
+    .contain_footer {
         width: 100%;
         margin-top: 10px;
     }
