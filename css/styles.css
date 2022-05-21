@@ -137,14 +137,15 @@ input {
     padding-right: 10px;
     display: flex;
     align-items: center;
+    height: 50px;
 }
 
 .Pa {
     color:#0065FC;
     background-color: #DEEBFF; 
     margin-left: -6px;
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -154,6 +155,7 @@ input {
 .Pa::before {
     display: flex;
     justify-content: center;
+    margin: 4px;
 }
 
 .contain_class {
