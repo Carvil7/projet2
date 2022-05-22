@@ -24,7 +24,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 25px;
+    margin: 0 15px;
     padding-left: 20px;
     padding-right: 10px;
 }
@@ -194,10 +194,11 @@ input {
 /* CARDS-Hébergement */
 
 .Cards {
-    padding-left: 40px;
-    padding-right: 20px;
+    height: 33%;
+    width: 100%;
+    padding: 20px 40px;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .Cards h3 {
@@ -205,6 +206,7 @@ input {
 }
 .Cards h4 {
     font-size: 120%;
+    margin-bottom: 0;
 }
 
 .heb_marseille {
@@ -314,9 +316,8 @@ h3 {
 .most_popular {
     border: 0px solid #f2f2f2;
     background-color: #f2f2f2;
-    width: 30%;
+    width: 31%;
     border-radius: 20px;
-    margin-left: 40px;
     height: 645px;
     display: flex;
     flex-wrap: wrap;
@@ -328,17 +329,17 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 80%;
+    width: 82%;
     margin-bottom: -10px;
 }
 .popular h2 {
-    font-size: 140%;
-    margin: 0;
+    font-size: 150%;
+    margin: 10px 10px 10px 0px;
 }
 
 .line {
     margin-left: 20px;
-    font-size: 140%;
+    font-size: 130%;
 }
 
 .Card_popular {

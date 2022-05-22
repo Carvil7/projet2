@@ -53,7 +53,7 @@
         padding: 0;
     }
     .info {
-        padding-left: 20px;
+        padding-left: 17px;
     }
 
     .Cards {
@@ -90,7 +90,7 @@
     }
     .popular h2 {
         font-size: 180%;
-        margin: 10px;
+        margin: 10px 10px 10px 0px;
     }
     .line {
         font-size: 200%;
