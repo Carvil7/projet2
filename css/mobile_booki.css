@@ -1,14 +1,28 @@
-/* BOOKI - Mobile */
+/* MOBILE - BOOKI */
 
 @media (max-width: 767px) {
-    #Logo {
+    
+    /* HEADER */
+
+    #logo {
         width: 100px;
         height: 50%
     }
 
-    .Title {
+    .contain_nav {
+        font-size: 100%;
+    }
+
+    .title {
         margin-bottom: 30px;
     }
+
+    /* SEARCH */
+
+    .search {
+        margin-top: 30px;
+    }
+
     .search h1 {
         margin-bottom: 5px;
     }
@@ -16,21 +30,13 @@
     .search, .filter {
         margin-right: 20px;
     }
-
-    .search {
-        margin-top: 30px;
-    }
-
-    .glass {
-        display:contents
-    }
-
+  
     .fa-magnifying-glass::before {
         margin: -3px;
     }
 
-    .Submit_sup {
-        display: none;
+    input {
+        width: 60%;
     }
 
     button {
@@ -40,9 +46,15 @@
         border-radius: 15px;
     }
 
-    input {
-        width: 60%;
+    .submit_sup {
+        display: none;
     }
+
+    .glass {
+        display:contents
+    }
+
+    /* FILTRES */
 
     .contain_filter {
         margin: 30px 0px 30px 10px;
@@ -61,57 +73,24 @@
     .contain_class {
         margin-right: 5px;
     }
+
+    /* INFO */
+
     .info {
         margin-bottom: 30px;
     }
 
-    .popular {
-        width: 320px;
-    }
+    /* CARDS - hébergements */
 
-    .Cards {
+    .cards {
         flex-direction: column-reverse; 
         padding: 0; 
     }
 
-    .Card_popular {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 10px 0px 10px 0px;
-    }
-
-    .Card_popular a {
-        height: 140px;
-        width: 320px;
-        margin-top: 10px;
-    }
-
-    .card_img {
-        height: 100%;
-        width: 35%;
-    }
-
-    .Card_popular article {
-        margin-top: 0;
-    }
-
-    .most_popular {
-        background-color: #f2f2f2;
-        width: 100%;
-        border-radius: 0;
-        margin-bottom: 20px;
-        padding: 20px 0px 20px 0px;
-    }
-
-    .popular h2 {
-        font-size: 140%;
-    }
-
-    .line {
-        font-size: 130%;
-    }
-
+    .cards h3 {
+        font-size: 100%;
+    }    
+    
     .heb_marseille {
         background-color: #ffffff;
         height:auto;
@@ -124,6 +103,12 @@
         margin-right: auto;
     }
 
+    .heb_marseille a {
+        height: 200px;
+        width: 320px;
+        margin: 2% 0;
+    }
+
     .heb_marseille article {
         height: 100%;
         width: 100%;
@@ -133,24 +118,7 @@
         height: 60%;
     }
 
-    .heb_marseille a {
-        height: 200px;
-        width: 320px;
-        margin: 2% 0;
-    }
-    .star {
-        font-size: 12px;
-    }
-    .Cards h3 {
-        font-size: 100%;
-    }
-    .night {
-        font-size: 14px;
-    }
-    .description_bis .star {
-        font-size: 10px;
-    }
-    #Hébergements {
+    #hebergements {
         font-size: 140%;
         margin-bottom: 0;
     }
@@ -159,25 +127,73 @@
         flex-direction: column;
         display: flex;
     }
-   
-    .card_activity {
-        flex-direction: column;
-        height: auto;
-        width: 330px;
+
+    .night {
+        font-size: 14px;
+    } 
+
+    .star {
+        font-size: 12px;
     }
 
-    .card_activity article {
-        flex-direction: column;
+    /* CARDS - les plus populaires */
+
+
+    .most_popular {
+        background-color: #f2f2f2;
+        width: 100%;
+        border-radius: 0;
+        margin-bottom: 20px;
+        padding: 20px 0px 20px 0px;
+    }
+
+    .popular {
+        width: 320px;
+    }
+
+    .popular h2 {
+        font-size: 140%;
+    }
+
+    .line {
+        font-size: 130%;
+    }
+ 
+    .card_popular {
         display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 0px 10px 0px;
     }
 
+    .card_popular a {
+        height: 140px;
+        width: 320px;
+        margin-top: 10px;
+    }
+
+    .card_popular article {
+        margin-top: 0;
+    }
+
+    .card_img {
+        height: 100%;
+        width: 35%;
+    }
+
+    .description_bis .star {
+        font-size: 10px;
+    }
+
+    /* CARDS - activités */
+  
     .activity {
         width: 320px;
         padding: 0;
         flex-direction: column;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
     }
 
     .activity a {
@@ -194,6 +210,17 @@
         margin: 5px 0 5px 0;
     }
 
+    .card_activity {
+        flex-direction: column;
+        height: auto;
+        width: 330px;
+    }
+
+    .card_activity article {
+        flex-direction: column;
+        display: flex;
+    }
+
     .iles_frioul {
         height: 76%;
     }
@@ -205,6 +232,8 @@
     .parc_longchamp {
         height: 76%;
     }
+
+    /* FOOTER */
 
     footer {
         flex-direction: column;

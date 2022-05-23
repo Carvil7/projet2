@@ -1,6 +1,9 @@
 /* TABLET - Booki */
 
 @media (max-width: 991px) {
+
+    /* HEADER */
+
     header {
         display: flex;
         flex-direction: column;
@@ -11,21 +14,23 @@
         padding-top: 20px;
     }
 
-    nav {
-        width: 100%;
-    }
-
-    #Logo {
+    #logo {
         width: 150px;
         height: 75%;
         padding-bottom: 20px;
         margin: auto;
     }
+
+    nav {
+        width: 100%;
+    }
+   
     .contain_nav {
         margin: auto;
         display:flex ;
         flex-basis: 100%;
         text-align: center; 
+        font-size: 120%;
     }
 
     .contain_nav a {
@@ -39,73 +44,43 @@
         border-bottom: 3px solid #0065FC;
     }
 
+    /* SEARCH */
+
     .search h1 {
         margin-bottom: -5px;
         margin-top: 30px;
     }
-    .Title {
+    .title {
         padding-left: 20px;
     }
     .loc {
         margin-left: 17px;
     }
+
+    /* FILTRES */ 
+
     .contain_filter {
         padding: 0;
         margin: 20px 0 20px 20px;
     }
     .contain_icon {
         margin-left: 0px;
+        margin-bottom: 5px;
     }
+
+    /* INFO */
+
     .info {
         padding-left: 17px;
         margin-bottom: 25px;
     }
 
-    .Cards {
+    /* CARDS- hébergements */
+
+    .cards {
         padding: 0px 20px 0px 20px;
         margin: 0;
         flex-direction: column-reverse;
-    }
-
-    .most_popular {
-        height: auto;
-        width: 100%;
-        padding: 20px 60px 50px 60px;
-        margin-bottom: 20px;
-        margin-left: auto;
-        margin-right: auto;
-    }  
-    .Card_popular {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-    } 
-    .Card_popular article {
-        margin-top: 10px;
-    }
-    .Card_popular a {
-        height: 140px;
-        margin-top: 10px;
-    }
-    .card_img {
-        height: 100%;
-        width: 35%;
-    }
-    .popular h2 {
-        font-size: 180%;
-        margin: 10px 10px 10px 0px;
-    }
-    .line {
-        font-size: 200%;
-    }
-    .popular {
-        width: 82%;
-    }
-    #Hébergements {
-        margin-bottom: 10px;
-        margin-top: 20px;
     }
 
     .heb_marseille {
@@ -116,30 +91,91 @@
         background-color: white;
         padding: 0px;
     }
+
+    #hebergements {
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    /* CARDS - les plus populaires */
+
+    .most_popular {
+        height: auto;
+        width: 100%;
+        padding: 20px 60px 50px 60px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+
+    .popular {
+        width: 82%;
+    }
+
+    .popular h2 {
+        font-size: 180%;
+        margin: 10px 10px 10px 0px;
+    }
+
+    .line {
+        font-size: 200%;
+    }
+
+    .card_popular {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    } 
+
+    .card_popular a {
+        height: 140px;
+        margin-top: 10px;
+    }
+
+    .card_popular article {
+        margin-top: 10px;
+    }
+
+    .card_img {
+        height: 100%;
+        width: 35%;
+    }
+
+    /* CARDS - activités */
+
     .activity {
         padding: 20px;
     }
-    .activity a {
-        width: 30%;
-    }
+
     .activity h2 {
+        margin-top: 20px;
         margin-bottom: 10px;
         font-size: 150%;
     }
+
     .activity h3 {
         font-size: 100%;
         padding: 15px;
     }
+
+    .activity a {
+        width: 30%;
+    }
+
     .card_activity {
-        margin: 10px 0 10px 0;
-        flex-direction: column-reverse;
+        margin: 10px 0 30px 0;
+        flex-direction: row;
         flex-wrap: wrap;
         align-items: flex-start;
         justify-content: space-between;
-    }     
-    .vieux_port, .Pomegues, .frioul_, .Calanques, .Garde, .longchamp_ {
+    } 
+
+    .vieux_port, .pomegues, .frioul, .calanques, .garde, .longchamp_ {
         height: 45%;
     }
+
     .img_port, .fort_pomegues, .iles_frioul, .parc_calanques, .la_garde, .parc_longchamp {
         height: 85%;
     }
@@ -148,6 +184,9 @@
         height: 115%;
         object-position: 0 0px;
     }
+
+    /* FOOTER */
+
     footer {
         padding: 30px 20px;
         justify-content: space-between;
