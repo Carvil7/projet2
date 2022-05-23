@@ -181,6 +181,10 @@
         width: 35%;
     }
 
+    .description_bis .night {
+        font-size: 14px;
+    }
+
     .description_bis .star {
         font-size: 10px;
     }

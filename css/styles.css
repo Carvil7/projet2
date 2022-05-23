@@ -84,6 +84,7 @@ form {
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 }
+
 .fa-location-dot::before {
     margin: 5px;
     font-size: 20px;

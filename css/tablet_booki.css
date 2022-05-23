@@ -1,4 +1,4 @@
-/* TABLET - Booki */
+/* TABLET - BOOKI */
 
 @media (max-width: 991px) {
 
@@ -141,6 +141,18 @@
     .card_img {
         height: 100%;
         width: 35%;
+    }
+
+    .description_bis h3 {
+        font-size: 110%;
+    }
+
+    .description_bis .night {
+        font-size: 16px;
+    }
+    
+    .description_bis .star {
+        font-size: 13px;
     }
 
     /* CARDS - activités */
