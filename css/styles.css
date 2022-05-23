@@ -50,13 +50,14 @@ header {
 }
 
 .Title {
-    padding-left: 40px;
+    padding-left: 45px;
     font-size: 11px;
 }
 
 .Title p {
-    font-size: 14px;
-    margin-bottom: 20px
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 .search h1 {
@@ -69,6 +70,7 @@ header {
 
 form {
     display: flex;
+    height: 50px;
 }
 
 .search i, .filter i {
@@ -78,16 +80,20 @@ form {
 .loc {
     font-size: 115%;
     width: 50px;
-    margin-left: 40px;
+    margin-left: 45px;
     background-color: #f2f2f2;
     text-align: center;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 }
+.fa-location-dot::before {
+    margin: 5px;
+    font-size: 20px;
+}
 
 button, .Submit_sup {
     font-weight: 600;
-    font-size: 16px;
+    font-size: 17px;
     color: white;
     background-color: #0065FC;
     width: 130px ;
@@ -117,19 +123,17 @@ input {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    margin: 10px;
-    padding-left: 20px;
+    margin: 20px 0 20px 45px;
 }
 .contain_filter h1 {
     padding-right: 20px;
-    padding-left: 10px;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: bold;
 }
 
 .contain_icon {
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 15px;
     border: 2px solid #dddada;
     border-radius: 35px;
     margin-bottom: 10px;
@@ -156,12 +160,14 @@ input {
     display: flex;
     justify-content: center;
     margin: 4px;
+    font-size: 20px;
 }
 
 .contain_class {
     font-weight: bold;
     margin-left: 10px;
     margin-right: 10px;
+    font-size: 17px;
 }
 
 .contain_class:hover {
@@ -174,7 +180,7 @@ input {
 .info {
     display: flex;
     align-items: flex-start; 
-    padding-left: 40px;
+    padding-left: 42px;
     margin-bottom: 20px;  
 }
 .info_icon {
@@ -408,13 +414,13 @@ h3 {
     box-shadow: 5px 10px 10px #f2f2f2;
 }
 .activity h2 {
-    font-size: 25px;
+    font-size: 150%;
     margin-bottom: 0;
 }
 .activity h3 {
     font-size: 100%;
     width: 100%;
-    padding: 14px;
+    padding: 20px;
 }
 
 .card_activity {
@@ -444,7 +450,7 @@ h3 {
 }
 
 .frioul_ {
-    height: 30%;
+    height: 33%;
 }
 
 .Garde {
@@ -476,12 +482,11 @@ h3 {
     height: 74%;
 }
 .img_port img, .fort_pomegues img, .iles_frioul img, .parc_calanques img, .la_garde img, .parc_longchamp img {
-    height: 100%;
     width: 100%;
     object-fit: cover;
 }
 .img_port img {
-    height: 100%;
+    height: 110%;
 } 
 
 .iles_frioul img {

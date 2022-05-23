@@ -6,16 +6,27 @@
         height: 50%
     }
 
+    .Title {
+        margin-bottom: 30px;
+    }
+    .search h1 {
+        margin-bottom: 5px;
+    }
+
     .search, .filter {
         margin-right: 20px;
     }
 
     .search {
-        margin-top: 20px;
+        margin-top: 30px;
     }
 
     .glass {
         display:contents
+    }
+
+    .fa-magnifying-glass::before {
+        margin: -3px;
     }
 
     .Submit_sup {
@@ -33,8 +44,25 @@
         width: 60%;
     }
 
+    .contain_filter {
+        margin: 30px 0px 30px 10px;
+    }
+
     .contain_filter h1 {
         width: 100%;
+        margin-bottom: 5px;
+        padding-left: 8px;
+    }
+    .contain_icon {
+        margin-bottom: 3px;
+        margin-right: 2px;
+        margin-left: 10px;
+    }
+    .contain_class {
+        margin-right: 5px;
+    }
+    .info {
+        margin-bottom: 30px;
     }
 
     .popular {
@@ -90,7 +118,7 @@
         flex-direction: column;
         padding: 0;
         width: 320px;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
         margin-top: 0px;
         margin-left: auto;
         margin-right: auto;
@@ -150,6 +178,9 @@
     .activity h2 {
         font-size: 140%;
         margin: 0
+    }
+    .activity h3 {
+        margin: 5px 0 5px 0;
     }
 
     .iles_frioul {
