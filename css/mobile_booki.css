@@ -138,7 +138,18 @@
         width: 320px;
         margin: 2% 0;
     }
-
+    .star {
+        font-size: 12px;
+    }
+    .Cards h3 {
+        font-size: 100%;
+    }
+    .night {
+        font-size: 14px;
+    }
+    .description_bis .star {
+        font-size: 10px;
+    }
     #Hébergements {
         font-size: 140%;
         margin-bottom: 0;
@@ -197,7 +208,7 @@
 
     footer {
         flex-direction: column;
-        padding: 20px 20px 30px 20px;
+        padding: 30px 20px;
         width: 100%;
     }
 
@@ -208,5 +219,6 @@
     .contain_footer {
         width: 100%;
         margin-top: 10px;
+        margin-bottom: 20px
     }
 }    
