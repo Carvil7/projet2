@@ -36,7 +36,7 @@
     }
 
     input {
-        width: 60%;
+        width: 100%;
     }
 
     button {
@@ -70,6 +70,7 @@
         margin-right: 2px;
         margin-left: 10px;
     }
+
     .contain_class {
         margin-right: 5px;
     }
@@ -80,7 +81,7 @@
         margin-bottom: 30px;
     }
 
-    /* CARDS - hébergements */
+    /* CARDS-hébergements */
 
     .cards {
         flex-direction: column-reverse; 
@@ -136,8 +137,7 @@
         font-size: 12px;
     }
 
-    /* CARDS - les plus populaires */
-
+    /* CARDS-les plus populaires */
 
     .most_popular {
         background-color: #f2f2f2;
@@ -189,7 +189,7 @@
         font-size: 10px;
     }
 
-    /* CARDS - activités */
+    /* CARDS-activités */
   
     .activity {
         width: 320px;
@@ -210,6 +210,7 @@
         font-size: 140%;
         margin: 0
     }
+    
     .activity h3 {
         margin: 5px 0 5px 0;
     }

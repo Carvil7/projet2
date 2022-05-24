@@ -3,7 +3,7 @@
     src: url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 }    
 
-*{
+* {
     box-sizing: border-box;
     -moz-box-sizing: border-box; /* firefox*/
     -webkit-box-sizing: border-box; /*chrome*/
@@ -14,6 +14,7 @@ a {
     text-decoration: none;
     color : inherit;
 }
+
 body {
     max-width: 1440px;
 }
@@ -186,6 +187,7 @@ button, .submit_sup {
     padding-left: 52px;
     margin-bottom: 20px;  
 }
+
 .info_icon {
     color: #0065FC;
     width: 25px;
@@ -197,11 +199,12 @@ button, .submit_sup {
     align-items: center;
     justify-content: center;
 }
+
 .info p {
     margin: 5px 0 0 10px;
 }
 
-/* CARDS- hébergements */
+/* CARDS-hébergements */
 
 .cards {
     height: 33%;
@@ -214,6 +217,7 @@ button, .submit_sup {
 .cards h3 {
     font-size: 92%;
 }
+
 .cards h4 {
     font-size: 120%;
     margin-bottom: 0;
@@ -282,6 +286,7 @@ button, .submit_sup {
     border-top-right-radius: 20px;
     overflow: hidden;
 }
+
 .img_card img {
     height: 100%;
     width: 100%;
@@ -323,7 +328,7 @@ h3 {
     color: #dddada;
 }
 
-/* CARDS- les plus populaires */
+/* CARDS-les plus populaires */
 
 .most_popular {
     border: 0px solid #f2f2f2;
@@ -337,6 +342,7 @@ h3 {
     align-items: center;
     justify-content: center;
 }
+
 .popular {
     display: flex;
     align-items: center;
@@ -344,6 +350,7 @@ h3 {
     width: 82%;
     margin-bottom: -10px;
 }
+
 .popular h2 {
     font-size: 150%;
     margin: 10px 10px 10px 0px;
@@ -362,6 +369,7 @@ h3 {
     justify-content: space-evenly;
     align-items: center;
 }
+
 .card_popular a {
     height: 28%;
     width: 82%;
@@ -379,6 +387,7 @@ h3 {
 .card_popular article:hover {
     background-color: #f2f2f2;
 }
+
 .card_img {
     width: 38%;
     border-top-left-radius: 15px;
@@ -386,6 +395,7 @@ h3 {
     display: flex;
     overflow: hidden;
 }
+
 .card_img img{
     height: 100%;
     width: 100%;
@@ -398,14 +408,16 @@ h3 {
     display: flex;
     flex-wrap: wrap;
 }
+
 .description_bis .star {
     align-self: flex-end;
 }
+
 .description_bis:hover {
     color: #0065FC;
 }
 
-/* CARDS - activités */
+/* CARDS-activités */
 
 .activity {
     width: 100%;
@@ -419,11 +431,13 @@ h3 {
     border-radius: 25px;
     box-shadow: -1px 5px 10px 10px #f2f2f2;
 }
+
 .activity h2 {
     font-size: 150%;
     margin-bottom: 0;
     margin-top: 0;
 }
+
 .activity h3 {
     font-size: 100%;
     width: 100%;
@@ -439,16 +453,16 @@ h3 {
     align-content: space-between;
 }
 
-.card_activity article{
+.card_activity article {
     height: 100%;
     display: flex;
     flex-direction: column;
 }
-.card_activity div{
+.card_activity div {
     margin: 0;
 }
 
-.vieux_port, .calanques{
+.vieux_port, .calanques {
     height: 90%;
 }
 
@@ -473,25 +487,32 @@ h3 {
     border-top-right-radius: 20px;
     overflow: hidden;
 }
+
 .img_port, .parc_calanques {
     height: 87%;
 }
+
 .fort_pomegues {
     height: 76%;
 }
+
 .iles_frioul {
     height: 68%;
 }
+
 .la_garde {
     height: 72%;
 }
+
 .parc_longchamp {
     height: 74%;
 }
+
 .img_port img, .fort_pomegues img, .iles_frioul img, .parc_calanques img, .la_garde img, .parc_longchamp img {
     width: 100%;
     object-fit: cover;
 }
+
 .img_port img {
     height: 110%;
 } 
@@ -499,6 +520,7 @@ h3 {
 .iles_frioul img {
     height: 100%;
 }
+
 .fort_pomegues img {
     height: 100%;
     object-position: 0 -130px;
@@ -507,6 +529,7 @@ h3 {
 .parc_calanques img {
     height: 115%;
 }
+
 .la_garde img{
     height: 100%;
     object-position: 0 0;
@@ -540,6 +563,7 @@ footer ul {
     list-style-type: none;
     margin-top: 0;
 }
+
 footer li {
     padding: 0;
     margin: 10px 0;

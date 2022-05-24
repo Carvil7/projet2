@@ -50,9 +50,11 @@
         margin-bottom: -5px;
         margin-top: 30px;
     }
+
     .title {
         padding-left: 20px;
     }
+
     .loc {
         margin-left: 17px;
     }
@@ -63,6 +65,7 @@
         padding: 0;
         margin: 20px 0 20px 20px;
     }
+
     .contain_icon {
         margin-left: 0px;
         margin-bottom: 5px;
@@ -75,7 +78,7 @@
         margin-bottom: 25px;
     }
 
-    /* CARDS- hébergements */
+    /* CARDS-hébergements */
 
     .cards {
         padding: 0px 20px 0px 20px;
@@ -97,7 +100,7 @@
         margin-top: 20px;
     }
 
-    /* CARDS - les plus populaires */
+    /* CARDS-les plus populaires */
 
     .most_popular {
         height: auto;
@@ -150,12 +153,12 @@
     .description_bis .night {
         font-size: 16px;
     }
-    
+
     .description_bis .star {
         font-size: 13px;
     }
 
-    /* CARDS - activités */
+    /* CARDS-activités */
 
     .activity {
         padding: 20px;
@@ -203,6 +206,7 @@
         padding: 30px 20px;
         justify-content: space-between;
     }
+    
     .contain_footer {
         margin-top: 20px;
     }    
